@@ -948,8 +948,8 @@ public class DependencyCheckScanAgent {
         settings.setStringIfNotEmpty(Settings.KEYS.PROXY_PASSWORD, proxyPassword);
         settings.setStringIfNotEmpty(Settings.KEYS.CONNECTION_TIMEOUT, connectionTimeout);
         settings.setStringIfNotEmpty(Settings.KEYS.SUPPRESSION_FILE, suppressionFile);
-        settings.setBoolean(Settings.KEYS.ANALYZER_CENTRAL_ENABLED, centralAnalyzerEnabled);
-        settings.setStringIfNotEmpty(Settings.KEYS.ANALYZER_CENTRAL_URL, centralUrl);
+        settings.setBoolean(Settings.KEYS.ANALYZER_BINTRAY_ENABLED, centralAnalyzerEnabled);
+        settings.setStringIfNotEmpty(Settings.KEYS.ANALYZER_BINTRAY_URL, centralUrl);
         settings.setBoolean(Settings.KEYS.ANALYZER_NEXUS_ENABLED, nexusAnalyzerEnabled);
         settings.setStringIfNotEmpty(Settings.KEYS.ANALYZER_NEXUS_URL, nexusUrl);
         settings.setBoolean(Settings.KEYS.ANALYZER_NEXUS_USES_PROXY, nexusUsesProxy);

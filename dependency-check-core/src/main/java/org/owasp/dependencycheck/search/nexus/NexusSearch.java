@@ -15,7 +15,7 @@
  *
  * Copyright (c) 2014 Jeremy Long. All Rights Reserved.
  */
-package org.owasp.dependencycheck.data.nexus;
+package org.owasp.dependencycheck.search.nexus;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
